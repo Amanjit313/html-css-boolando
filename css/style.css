@@ -23,9 +23,30 @@
   position: relative;
  }
 
+ /* Liste Shop - Immagini*/
+
  img{
    width: 100%;
  }
+
+ .img-box{
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+ .img-box .overlay{
+  position: absolute;
+  left: 0;
+  width: 100%;
+  display: none;
+}
+
+.img-box:hover .overlay{
+  display: block;
+}
+ 
+ /* Liste Shop - Symbol*/
 
  .heart{
    position: absolute;
@@ -37,9 +58,11 @@
    align-items: center;
  }
 
+  /* Liste Shop - Sconti*/
+
  .discount, .sust{
   position: absolute;
-  bottom: 75px;
+  bottom: 25px;
   padding: 3px 5px;
   color: white;
   font-size: 0.7rem;
@@ -77,12 +100,14 @@
   text-decoration: line-through;
 }
 
+
  /* Lista Shop 1 */
  
  
  /* /Lista Shop 1 */
  
  /* Lista Shop 2 */
+
  .unisex-tee, .stripe, .maglione{
    margin-top: 25px;
    margin-bottom: 25px;
