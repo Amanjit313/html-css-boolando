@@ -9,16 +9,8 @@
  .container{
    background-color: black;
    width: 900px; 
-   height: 870px;
+   height: 900px;
    margin: 0 auto;
-   margin-top: 15px;
-   position: relative;
- }
- 
- .item-list{
-   height: 425px;
-   width: 900px;
-   position: absolute;
  }
 
  /* /CSS Generico */
@@ -26,62 +18,55 @@
  /* Liste Shop */
  
  .item-box{
-   width: 290px;
-   height: 90%;
-   background-color: aqua;
-   float: left;
-   background-repeat: no-repeat;
+  display: inline-block;
+  background-repeat: no-repeat;
  }
 
  /* Lista Shop 1 */
  
- .list-1{
-   background-color: blueviolet;
-   top: 0;
- }
-
  .relaxed-tee{
-   background-image: url("../img/1.webp");
-   margin-right: 15px;
-   background-size: cover;
- }
+  height: 435px;
+  width: 33%;
+  background-color: aqua;
+}
 
- .roses-tee{
-  background-image: url("../img/2.webp");
-  background-size: cover;
+.roses-tee{
+ height: 435px;
+ width: 33%;
+ background-color: green;
 }
 
 .pastello{
-  background-image: url("../img/3.webp");
-  margin-left: 15px;
-  background-size: cover;
+ height: 435px;
+ width: 33%;
+ background-color: blue;
 }
  
  /* /Lista Shop 1 */
  
  /* Lista Shop 2 */
- 
- .list-2{
-   background-color: purple;
-   bottom: 0;
+ .unisex-tee, .stripe, .maglione{
+   margin-top: 25px;
  }
 
  .unisex-tee{
-  background-image: url("../img/4.webp");
-  background-size: cover;
-  margin-right: 15px;
+  height: 435px;
+  width: 33%;
+  background-color: red;
 }
 
 .stripe{
- background-image: url("../img/5.webp");
- background-size: cover;
+  height: 435px;
+  width: 33%;
+  background-color: lightcoral;
 }
 
 .maglione{
- background-image: url("../img/6.webp");
- background-size: cover;
- margin-left: 15px;
+  height: 435px;
+  width: 33%;
+  background-color: cyan;
 }
+
  /* /Lista Shop 2 */
  
  /* /Liste Shop */
