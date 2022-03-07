@@ -1,0 +1,53 @@
+/* CSS Generico */
+
+*{
+ margin: 0;
+ bottom: 0;
+ box-sizing: border-box;
+}
+
+.container{
+  background-color: black;
+  width: 50%;
+  min-height: 870px;
+  margin: 0 auto;
+  margin-top: 15px;
+  position: relative;
+}
+
+.item-list{
+  height: 425px;
+  width: 100%;
+  position: absolute;
+}
+
+/* /CSS Generico */
+
+/* Liste Shop */
+
+.item-box{
+  width: 33%;
+  height: 100%;
+  background-color: aqua;
+  display: inline-block;
+}
+
+/* Lista Shop 1 */
+
+.list-1{
+  background-color: blueviolet;
+  top: 0;
+}
+
+/* /Lista Shop 1 */
+
+/* Lista Shop 2 */
+
+.list-2{
+  background-color: purple;
+  bottom: 0;
+}
+/* /Lista Shop 2 */
+
+/* /Liste Shop */
+
