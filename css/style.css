@@ -8,7 +8,7 @@
  
  .container{
    background-color: black;
-   width: 900px;
+   width: 900px; 
    height: 870px;
    margin: 0 auto;
    margin-top: 15px;
@@ -20,24 +20,42 @@
    width: 900px;
    position: absolute;
  }
- 
+
  /* /CSS Generico */
  
  /* Liste Shop */
  
  .item-box{
-   width: 297px;
+   width: 290px;
    height: 90%;
    background-color: aqua;
-   display: inline-block;
+   float: left;
+   background-repeat: no-repeat;
  }
- 
+
  /* Lista Shop 1 */
  
  .list-1{
    background-color: blueviolet;
    top: 0;
  }
+
+ .relaxed-tee{
+   background-image: url("../img/1.webp");
+   margin-right: 15px;
+   background-size: cover;
+ }
+
+ .roses-tee{
+  background-image: url("../img/2.webp");
+  background-size: cover;
+}
+
+.pastello{
+  background-image: url("../img/3.webp");
+  margin-left: 15px;
+  background-size: cover;
+}
  
  /* /Lista Shop 1 */
  
@@ -47,6 +65,23 @@
    background-color: purple;
    bottom: 0;
  }
+
+ .unisex-tee{
+  background-image: url("../img/4.webp");
+  background-size: cover;
+  margin-right: 15px;
+}
+
+.stripe{
+ background-image: url("../img/5.webp");
+ background-size: cover;
+}
+
+.maglione{
+ background-image: url("../img/6.webp");
+ background-size: cover;
+ margin-left: 15px;
+}
  /* /Lista Shop 2 */
  
  /* /Liste Shop */
