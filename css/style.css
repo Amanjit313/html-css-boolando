@@ -60,9 +60,13 @@
 
   /* Liste Shop - Sconti*/
 
- .discount, .sust{
+ .card-promo{
   position: absolute;
   bottom: 25px;
+  left: 0;
+ }
+
+ .discount, .sust{
   padding: 3px 5px;
   color: white;
   font-size: 0.7rem;
@@ -73,7 +77,6 @@
  }
 
  .sust{
-  left: 40px;
   background-color:green;
 }
 
